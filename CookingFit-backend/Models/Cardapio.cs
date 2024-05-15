@@ -10,6 +10,7 @@ namespace CookingFit_backend.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Campo obrigatório, informar a descricao!")]
+        [Display(Name = "Descrição")]
         public string Descricao { get; set; }
 
         [Required(ErrorMessage = "Campo obrigatório, informar o total de calorias!")]

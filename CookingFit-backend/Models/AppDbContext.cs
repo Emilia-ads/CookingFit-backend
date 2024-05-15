@@ -10,5 +10,6 @@ namespace CookingFit_backend.Models
         public DbSet<Ingrediente> Ingrediente { get; set; }
 
         public DbSet<Cardapio> Cardapio { get; set; }
+
     }
 }

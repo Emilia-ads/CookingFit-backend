@@ -9,6 +9,7 @@ namespace CookingFit_backend.Models
         [Key]
         public int Id { get; set; }
 
+
         [Required(ErrorMessage ="Campo obrigatório, informar o nome!")]
         public string Nome { get; set; }
 
@@ -20,5 +21,7 @@ namespace CookingFit_backend.Models
 
         [Required(ErrorMessage = "Campo obrigatório, informar o peso! (Ex.: 100g, 2kg, etc.)")]
         public string Peso { get; set; }
+
     }
+
 }
